@@ -3,16 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="20dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BLOOD MANAGEMENT APP"
+        android:text="NGO"
         android:textColor="#CD0D0D"
         android:textStyle="bold"
         android:paddingBottom="22dp"
@@ -20,34 +19,32 @@
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/ngo"
+        android:id="@+id/ngo_get_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO"
+        android:text="GET LIST"
         android:textSize="22dp"
         android:textStyle="bold">
 
     </Button>
 
     <Button
-        android:id="@+id/donor"
+        android:id="@+id/ngo_get_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DONOR"
+        android:text="GET ID"
         android:textSize="22dp"
         android:textStyle="bold">
 
     </Button>
 
     <Button
-        android:id="@+id/camp"
+        android:id="@+id/ngo_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CAMP"
+        android:text="ADD NGO"
         android:textSize="22dp"
         android:textStyle="bold">
     </Button>
-
-
 
 </LinearLayout>
