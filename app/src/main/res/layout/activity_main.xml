@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLOOD MANAGEMENT APP"
+        android:textColor="#CD0D0D"
+        android:textStyle="bold"
+        android:paddingBottom="22dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/ngo_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NGO LIST"
+        android:textSize="22dp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/add_ngo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD NGO"
+        android:textSize="22dp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/update_ngo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE NGO"
+        android:textSize="22dp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/delete_ngo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="DELETE NGO"
+        android:textSize="22dp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/add_donor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD DONOR"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
