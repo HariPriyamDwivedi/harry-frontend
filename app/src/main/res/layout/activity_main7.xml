@@ -5,89 +5,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity7">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO DETAILS"
-        android:textSize="30dp"
-        android:textAlignment="center"
+        android:text="DONOR DETAILS"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        android:padding="22dp"
-        android:textColor="@color/white"/>
-
-
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textSize="30dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO DISTRICT :"
+        android:text="NUMBER OF TIMES DONATED: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
         android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
+        android:textSize="20dp"/>
     <EditText
+        android:id="@+id/number_of_times_donated"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:id="@+id/ngo_district"/>
-
+        android:layout_margin="10dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO STATE :"
+        android:text="ADDRESS: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
         android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
+        android:textSize="20dp"/>
     <EditText
+        android:id="@+id/donor_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:id="@+id/ngo_state"/>
-
+        android:layout_margin="10dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO PAN NUMBER:"
-        android:textSize="22dp"
+        android:text="ORG. ID: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
         android:textColor="@color/white"
-        android:textStyle="normal"/>
-
+        android:textSize="20dp"/>
     <EditText
+        android:id="@+id/organisation_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:id="@+id/ngo_pan_no"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CSR NUMBER :"
-        android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:id="@+id/csr_no"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NGO NITI AYOG :"
-        android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:id="@+id/ngo_niti_ayog"/>
-
+        android:layout_margin="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -95,7 +65,7 @@
         android:orientation="horizontal"
         android:paddingTop="20dp">
         <Button
-            android:id="@+id/back2"
+            android:id="@+id/donor_back1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -104,7 +74,7 @@
             android:textSize="22dp"/>
 
         <Button
-            android:id="@+id/submit1"
+            android:id="@+id/donor_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="25dp"
@@ -112,6 +82,5 @@
             android:text="SUBMIT"
             android:textSize="22dp"/>
     </LinearLayout>
-
 
 </LinearLayout>

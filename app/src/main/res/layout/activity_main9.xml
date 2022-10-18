@@ -5,89 +5,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity9">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO DETAILS"
-        android:textSize="30dp"
-        android:textAlignment="center"
+        android:text="CAMP DETAILS"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        android:padding="22dp"
-        android:textColor="@color/white"/>
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMP NAME: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/camp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/camp_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/camp_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="coordinator: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
 
+    <EditText
+        android:id="@+id/camp_coordinator_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NGO DISTRICT :"
+        android:text="START DATE: "
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp"
         android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
+        android:textSize="20dp"/>
     <EditText
+        android:id="@+id/camp_start_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:id="@+id/ngo_district"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NGO STATE :"
-        android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:id="@+id/ngo_state"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NGO PAN NUMBER:"
-        android:textSize="22dp"
-        android:textColor="@color/white"
-        android:textStyle="normal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:id="@+id/ngo_pan_no"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CSR NUMBER :"
-        android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:id="@+id/csr_no"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NGO NITI AYOG :"
-        android:textColor="@color/white"
-        android:textSize="22dp"
-        android:textStyle="normal"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:id="@+id/ngo_niti_ayog"/>
-
+        android:layout_margin="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -95,7 +95,7 @@
         android:orientation="horizontal"
         android:paddingTop="20dp">
         <Button
-            android:id="@+id/back2"
+            android:id="@+id/camp_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -104,14 +104,13 @@
             android:textSize="22dp"/>
 
         <Button
-            android:id="@+id/submit1"
+            android:id="@+id/camp_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="25dp"
             android:layout_marginLeft="80dp"
-            android:text="SUBMIT"
+            android:text="NEXT"
             android:textSize="22dp"/>
     </LinearLayout>
-
 
 </LinearLayout>

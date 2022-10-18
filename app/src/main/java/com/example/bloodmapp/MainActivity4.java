@@ -21,5 +21,9 @@ public class MainActivity4 extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity2.class);
             startActivity(intent);
         });
+        get_list.setOnClickListener(View->{
+            Intent intent1 = new Intent(this, MainActivity11.class);
+            startActivity(intent1);
+        });
     }
 }

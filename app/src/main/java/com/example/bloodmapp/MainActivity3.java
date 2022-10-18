@@ -90,8 +90,8 @@ public class MainActivity3 extends AppCompatActivity {
                 }
             });
             queue.add(jsonObjectRequest);
-            Intent intent=new Intent(this,MainActivity.class);
-            startActivity(intent);
+            Intent intent1=new Intent(this,MainActivity.class);
+            startActivity(intent1);
         });
     }
 }
